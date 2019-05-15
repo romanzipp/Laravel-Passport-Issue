@@ -18,7 +18,7 @@ vendor/bin/phpunit tests/Feature/AuthApiTest.php
 
 ### Debug Dump
 
-[Uncomment line in AuthServiceProvider L43](https://github.com/romanzipp/Laravel-Passport-Issue/blob/master/app/Providers/AuthServiceProvider.php#L43)
+[Comment line in AuthServiceProvider L43](https://github.com/romanzipp/Laravel-Passport-Issue/blob/master/app/Providers/AuthServiceProvider.php#L43)
 
 
 ### Create a user with token & print access token for manual testing
